@@ -1,0 +1,19 @@
+{
+	"common": {},
+	"framework": {
+		"cooldown": "**⏰ | {{-author}}, **Vui lòng chờ thêm `{{remaining}}` giây trước khi có thể sử dụng `{{commandName}}`"
+	},
+	"general": {
+		"ping": {
+			"message": "**📶 | {{-author}}, **Pong `{{ping}}` ms"
+		},
+		"prefix": {
+			"message": "**{{-emoji }} | {{-author}}, ** Tiếp đầu ngữ hiện tại của máy chủ là `{{prefix}}` "
+		},
+		"language": {
+			"current": "**🌐 | {{- author }}, ** Ngôn ngữ hiện tại của máy chủ là `{{-language}}`",
+			"not_found": "**{{-emoji}} | {{- author }}, ** Hiện tại mình chỉ biết được các ngôn ngữ sau `{{-languages}}`",
+			"success": "**{{-emoji}} | {{- author }}, ** đổi ngôn ngữ thành `{{-language}}`"
+		}
+	}
+}

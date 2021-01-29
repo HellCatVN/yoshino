@@ -1,0 +1,22 @@
+{
+	"common": {},
+	"framework": {
+		"cooldown": "**⏰ | {{-author}}, **Please wait `{{remaining}}` s before you can use `{{commandName}}`"
+	},
+	"general": {
+		"ping": {
+			"message": "**📶 | {{-author}}, **Pong `{{ping}}` ms"
+		},
+		"prefix": {
+			"message": "**{{-emoji }} | {{-author}}, ** Prefix of this server : `{{prefix}}` ",
+			"add": "**{{-emoji }} | {{-author}}, ** Prefix `{{prefix}}` is added",
+			"remove": "**{{-emoji }} | {{-author}}, ** Prefix `{{prefix}}` is removed",
+			"change": "**{{-emoji }} | {{-author}}, ** Prefix is changed to `{{prefix}]`"
+		},
+		"language": {
+			"current": "**🌐 | {{- author }}, ** This server is using `{{-language}}` as main language",
+			"not_found": "**{{-emoji}} | {{- author }}, ** I can speak only these languages: `{{-languages}}`",
+			"success": "**{{-emoji}} | {{- author }}, ** Main language of this server is changed to `{{-language}}`"
+		}
+	}
+}

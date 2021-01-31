@@ -1,5 +1,9 @@
 {
-	"common": {},
+	"common": {
+		"permission": {
+			"channel_block": "**🚫 | {{- author }},** câu lệnh đã bị vô hiệu hóa tại kênh này"
+		}
+	},
 	"framework": {
 		"cooldown": "**⏰ | {{-author}}, **Vui lòng chờ thêm `{{remaining}}` giây trước khi có thể sử dụng `{{commandName}}`"
 	},
@@ -14,6 +18,14 @@
 			"current": "**🌐 | {{- author }}, ** Ngôn ngữ hiện tại của máy chủ là `{{-language}}`",
 			"not_found": "**{{-emoji}} | {{- author }}, ** Hiện tại mình chỉ biết được các ngôn ngữ sau `{{-languages}}`",
 			"success": "**{{-emoji}} | {{- author }}, ** đổi ngôn ngữ thành `{{-language}}`"
+		},
+		"disable": {
+			"description": "",
+			"content": "**🚫 Lệnh bị chặn tại kênh này**\n{{ listCommands }}"
+		},
+		"enable": {
+			"description": "",
+			"content": "**✅ Lệnh được sử dụng tại kênh này**\n{{ listCommands }}"
 		}
 	}
 }

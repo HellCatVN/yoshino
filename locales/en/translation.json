@@ -1,5 +1,9 @@
 {
-	"common": {},
+	"common": {
+		"permission": {
+			"channel_block": "**🚫 | {{- author }},** This command is not allowed in the channel"
+		}
+	},
 	"framework": {
 		"cooldown": "**⏰ | {{-author}}, **Please wait `{{remaining}}` s before you can use `{{commandName}}`"
 	},
@@ -17,6 +21,14 @@
 			"current": "**🌐 | {{- author }}, ** This server is using `{{-language}}` as main language",
 			"not_found": "**{{-emoji}} | {{- author }}, ** I can speak only these languages: `{{-languages}}`",
 			"success": "**{{-emoji}} | {{- author }}, ** Main language of this server is changed to `{{-language}}`"
+		},
+		"disable": {
+			"description": "",
+			"content": "**🚫 Blocked commands in channel **\n{{ listCommands }}"
+		},
+		"enable": {
+			"description": "",
+			"content": "**✅ Usable commands in channel **\n{{ listCommands }}"
 		}
 	}
 }

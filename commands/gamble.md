@@ -19,10 +19,8 @@ description: All help with gamble commands.
 **Note:** betValue is from 0 to 50000
 {% endhint %}
 
-| Usage | Description | Aliases |
-| :--- | :--- | :--- |
-| `coinflip [h | t] [betValue]` | Bet your money and flips a coin with a 50 50 chance landing on heads or tails | `cf` |
-|  |  |  |
-
-
+| Usage | Description | Aliases |  |
+| :--- | :--- | :--- | :--- |
+| \`coinflip \[h | t\] \[betValue\]\` | Bet your money and flips a coin with a 50 50 chance landing on heads or tails | `cf` |
+|  |  |  |  |
 

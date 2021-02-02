@@ -15,7 +15,7 @@ description: >-
 
 Welcome to **Yoshino's Documentation** !
 
-I hope you'll find enough help to **fully understand** Yoshino. If you want to correct, edit, add or remove something on this Wiki, you can go on [the GitHub page](https://github.com/HellCatVN/yuna/tree/docs). Your help will be gladly accepted ! 
+I hope you'll find enough help to **fully understand** Yoshino. If you want to correct, edit, add or remove something on this Wiki, you can go on [the GitHub page](https://github.com/HellCatVN/yuna/tree/docs). Your help will be gladly accepted !
 
 ## Setting up Yoshino
 

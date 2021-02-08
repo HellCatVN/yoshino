@@ -30,5 +30,19 @@
 			"description": "",
 			"content": "**✅ Usable commands in channel **\n{{ listCommands }}"
 		}
+	},
+	"gamble": {
+		"cf": {
+			"description": "Flip the coin, earn some gold!",
+			"err1": "**{{- author }}|**Please choose either **heads** or **tails** to start playing.",
+			"err2": "**{{- author }}|**Minimum bet amount: **{{ min }}** {{- goldIcon }}",
+			"err3": "**{{- author }}|**Maximum bet amount: **{{ max }}** {{- goldIcon }}",
+			"err4": "**{{- author }}|**Bets amount must be greater than **{{ min }}** {{- goldIcon }} and less than **{{ max }}** {{- goldIcon }}",
+			"err5": "**{{- author }}|**Big players don't have debts. {{ dollar }}",
+			"heads_win": "**{{- author }} ** spent **{{ bet }} {{- goldIcon }}** and chose **heads**\nThe coin spins... and landed on **heads** {{-headsIcon }}.You won!! **{{ win }} {{- goldIcon }}**",
+			"heads_lose": "**{{- author }} ** spent **{{ bet }} {{- goldIcon }}** and chose **tails**\nThe coin spins... and landed on **heads** {{-headsIcon }}.You lost it all...",
+			"tails_win": "**{{- author }} ** spent **{{ bet }} {{- goldIcon }}** and chose **tails**\nThe coin spins... and landed on **tails** {{-tailsIcon }}.You won!! **{{ win }} {{- goldIcon }}**",
+			"tails_lose": "**{{- author }} ** spent **{{ bet }} {{- goldIcon }}** and chose **heads**\nThe coin spins... and landed on **tails** {{-tailsIcon }}.You lost it all..."
+		}
 	}
 }

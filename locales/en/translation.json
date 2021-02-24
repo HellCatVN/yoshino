@@ -43,6 +43,13 @@
 			"heads_lose": "**{{- author }} ** spent **{{ bet }} {{- goldIcon }}** and chose **tails**\nThe coin spins... and landed on **heads** {{-headsIcon }}.You lost it all...",
 			"tails_win": "**{{- author }} ** spent **{{ bet }} {{- goldIcon }}** and chose **tails**\nThe coin spins... and landed on **tails** {{-tailsIcon }}.You won!! **{{ win }} {{- goldIcon }}**",
 			"tails_lose": "**{{- author }} ** spent **{{ bet }} {{- goldIcon }}** and chose **heads**\nThe coin spins... and landed on **tails** {{-tailsIcon }}.You lost it all..."
+		},
+		"rps": {
+			"description": "Rock Paper Scissors!",
+			"err1": "**{{- author }}|**Please choose `rock` {{- rock }}, `paper` {{- paper }} or `scissors` {{- scissors }} to get started.",
+			"rps_lose": "**{{- author }}|**Better luck next time!\nYou **lost** {{ bet }} {{- gold }}.\nYou chose: {{- loseIcon }}\nBot chose: {{- winIcon }}",
+			"rps_win": "**{{- author }}|**You win!\nYou **won** {{ bet }} {{- gold }}\nYou chose: {{- winIcon }}\nBot chose: {{- loseIcon}}",
+			"tie": "Tied!\nYou chose: {{-icon}}\nBot chose: {{-icon}}"
 		}
 	}
 }

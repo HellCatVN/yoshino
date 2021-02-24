@@ -27,5 +27,26 @@
 			"description": "",
 			"content": "**✅ Lệnh được sử dụng tại kênh này**\n{{ listCommands }}"
 		}
+	},
+	"gamble": {
+		"common": {
+			"err1": "**{{- author }} |** Vui lòng nhập số tiền muốn đặt lớn hơn **{{ min }}** {{- goldIcon }} và nhỏ hơn **{{ max }}** {{- goldIcon }}",
+			"err2": "**{{- author }} |** Dân chơi là không được thiếu tiền {{ dollar }}"
+		},
+		"cf": {
+			"description": "Tôi sẽ tung đồng xu và bạn hãy đoán nó là sấp hay ngửa",
+      "err1": "**{{- author }} |** Vui lòng chọn mặt **sấp** hay **ngửa** để chơi game",
+			"heads_win": "**{{- author }} ** đã đặt **{{ bet }} {{- goldIcon }}** vào mặt **ngửa**\nĐồng xu lật mặt **ngửa** {{-headsIcon }} bạn thắng **{{ win }} {{- goldIcon }}**",
+      "heads_lose": "**{{- author }} ** đã đặt **{{ bet }} {{- goldIcon }}** vào mặt **sấp**\nĐồng xu lật mặt **ngửa** {{-headsIcon }} bạn mất trắng",
+      "tails_win": "**{{- author }} ** đã đặt **{{ bet }} {{- goldIcon }}** vào mặt **sấp**\nĐồng xu lật mặt **sấp** {{-tailsIcon }} bạn thắng **{{ win }} {{- goldIcon }}**",
+      "tails_lose": "**{{- author }} ** đã đặt **{{ bet }} {{- goldIcon }}** vào mặt **ngửa**\nĐồng xu lật mặt **sấp** {{-tailsIcon }} bạn mất trắng"
+		},
+		"rps": {
+			"description": "Oẳn tù tì",
+      "err1": "**{{- author }} |** Vui lòng chọn `búa` {{- rock }} `bao` {{- paper }} `kéo` {{- scissors }} để chơi game",
+      "tie": "Chúng ta không thuộc về nhau :v !!! Kết quả **hòa** \nBạn chọn: {{-icon}}\nBot chọn: {{-icon}}",
+      "rps_lose": "**{{- author }} |** Chúc may mắn lần sau.\nBạn **thua** mất {{ bet }} {{- gold }}.\nBạn chọn: {{- loseIcon }}\nBot chọn: {{- winIcon }}",
+      "rps_win": "**{{- author }} |** Chúc mừng bạn đã chiến thắng.\n Bạn **thắng** được {{ bet }} {{- gold }}\nBạn chọn: {{- winIcon }}\nBot chọn: {{- loseIcon}}"
+		}
 	}
 }

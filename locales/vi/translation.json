@@ -29,14 +29,14 @@
 		}
 	},
 	"gamble": {
-    "cf": {
-      "description": "Tôi sẽ tung đồng xu và bạn hãy đoán nó là sấp hay ngửa",
+    "common": {
+			"err1": "**{{- author }} |** Vui lòng nhập số tiền muốn đặt lớn hơn **{{ min }}** {{- goldIcon }} và nhỏ hơn **{{ max }}** {{- goldIcon }}",
+			"err2": "**{{- author }} |** Dân chơi là không được thiếu tiền {{ dollar }}"
+		},
+		"cf": {
+			"description": "Tôi sẽ tung đồng xu và bạn hãy đoán nó là sấp hay ngửa",
       "err1": "**{{- author }} |** Vui lòng chọn mặt **sấp** hay **ngửa** để chơi game",
-      "err2": "**{{- author }} |** Số tiền bạn đặt phải lớn hơn **{{ min }}** {{- goldIcon }}",
-      "err3": "**{{- author }} |** Số tiền bạn đặt phải nhỏ hơn **{{ max }}** {{- goldIcon }}",
-      "err4": "**{{- author }} |** Vui lòng nhập số tiền muốn đặt lớn hơn **{{ min }}** {{- goldIcon }} và nhỏ hơn **{{ max }}** {{- goldIcon }}",
-      "err5": "**{{- author }} |** Dân chơi là không được thiếu tiền {{ dollar }}",
-      "heads_win": "**{{- author }} ** đã đặt **{{ bet }} {{- goldIcon }}** vào mặt **ngửa**\nĐồng xu lật mặt **ngửa** {{-headsIcon }} bạn thắng **{{ win }} {{- goldIcon }}**",
+			"heads_win": "**{{- author }} ** đã đặt **{{ bet }} {{- goldIcon }}** vào mặt **ngửa**\nĐồng xu lật mặt **ngửa** {{-headsIcon }} bạn thắng **{{ win }} {{- goldIcon }}**",
       "heads_lose": "**{{- author }} ** đã đặt **{{ bet }} {{- goldIcon }}** vào mặt **sấp**\nĐồng xu lật mặt **ngửa** {{-headsIcon }} bạn mất trắng",
       "tails_win": "**{{- author }} ** đã đặt **{{ bet }} {{- goldIcon }}** vào mặt **sấp**\nĐồng xu lật mặt **sấp** {{-tailsIcon }} bạn thắng **{{ win }} {{- goldIcon }}**",
       "tails_lose": "**{{- author }} ** đã đặt **{{ bet }} {{- goldIcon }}** vào mặt **ngửa**\nĐồng xu lật mặt **sấp** {{-tailsIcon }} bạn mất trắng"

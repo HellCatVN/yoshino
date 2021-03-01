@@ -51,5 +51,19 @@
 			"rps_win": "**{{- author }}|**You win!\nYou **won** {{ bet }} {{- gold }}\nYou chose: {{- winIcon }}\nBot chose: {{- loseIcon}}",
 			"tie": "Tied!\nYou chose: {{-icon}}\nBot chose: {{-icon}}"
 		}
+	},
+	"social": {
+		"balance": {
+			"description": "Check your gold",
+			"title": "{{- gold }} | **{{- author }}**'s money is **{{bal}}**"
+		},
+		"food": {
+			"description": "Check your food storage",
+			"title": "{{- emoFood }} **{{- author }}**'s food storage includes"
+		},
+		"material": {
+			"description": "Check your material storage",
+			"title": "**{{- author }}**'s material storage includes"
+		}
 	}
 }

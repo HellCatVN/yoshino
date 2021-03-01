@@ -48,5 +48,19 @@
 			"rps_lose": "**{{- author }} |** Chúc may mắn lần sau.\nBạn **thua** mất {{ bet }} {{- gold }}.\nBạn chọn: {{- loseIcon }}\nBot chọn: {{- winIcon }}",
 			"rps_win": "**{{- author }} |** Chúc mừng bạn đã chiến thắng.\n Bạn **thắng** được {{ bet }} {{- gold }}\nBạn chọn: {{- winIcon }}\nBot chọn: {{- loseIcon}}"
 		}
+	},
+	"social": {
+		"balance": {
+			"description": "Kiểm tra số vàng của bạn",
+			"title": "{{- gold }} | **{{- author }}** có số vàng là **{{bal}}**"
+		},
+		"food": {
+			"description": "Kiểm tra kho đồ ăn của bạn",
+			"title": "{{- emoFood }} **{{- author }}** có kho đồ ăn gồm"
+		},
+		"material": {
+			"description": "Kiểm tra kho nguyên liệu của bạn",
+			"title": "**{{- author }}** có kho nguyên liệu gồm"
+		}
 	}
 }

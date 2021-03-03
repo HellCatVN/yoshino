@@ -47,7 +47,13 @@
 			"tie": "Chúng ta không thuộc về nhau :v !!! Kết quả **hòa** \nBạn chọn: {{-icon}}\nBot chọn: {{-icon}}",
 			"rps_lose": "**{{- author }} |** Chúc may mắn lần sau.\nBạn **thua** mất {{ bet }} {{- gold }}.\nBạn chọn: {{- loseIcon }}\nBot chọn: {{- winIcon }}",
 			"rps_win": "**{{- author }} |** Chúc mừng bạn đã chiến thắng.\n Bạn **thắng** được {{ bet }} {{- gold }}\nBạn chọn: {{- winIcon }}\nBot chọn: {{- loseIcon}}"
-		}
+		},
+    "s": {
+      "description": "Máy đánh bạc",
+			"slot_process": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-spin}}║{{-spin}}║{{-spin}}║<\n══════════\n ║:::::::::::::::::::::║**",
+      "slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và mất trắng ಥ_ಥ",
+      "slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và thắng **{{ win }} {{- goldIcon }}**"
+    }
 	},
 	"social": {
 		"balance": {

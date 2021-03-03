@@ -50,7 +50,13 @@
 			"rps_lose": "**{{- author }}|**Better luck next time!\nYou **lost** {{ bet }} {{- gold }}.\nYou chose: {{- loseIcon }}\nBot chose: {{- winIcon }}",
 			"rps_win": "**{{- author }}|**You win!\nYou **won** {{ bet }} {{- gold }}\nYou chose: {{- winIcon }}\nBot chose: {{- loseIcon}}",
 			"tie": "Tied!\nYou chose: {{-icon}}\nBot chose: {{-icon}}"
-		}
+		},
+    "s": {
+      "description": "!!!Slot machine!!!",
+			"slot_process": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-spin}}║{{-spin}}║{{-spin}}║<\n══════════\n ║:::::::::::::::::::::║**",
+      "slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and lost it all ಥ_ಥ",
+      "slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and won **{{ win }} {{- goldIcon }}**"
+    }
 	},
 	"social": {
 		"balance": {

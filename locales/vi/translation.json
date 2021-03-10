@@ -53,6 +53,14 @@
 			"slot_process": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-spin}}║{{-spin}}║{{-spin}}║<\n══════════\n ║:::::::::::::::::::::║**",
       "slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và mất trắng ಥ_ಥ",
       "slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và thắng **{{ win }} {{- goldIcon }}**"
+    },
+		"bc": {
+      "description": "Tôm Cua Cá",
+			"title": "(ﾟヮﾟ)👉    Tôm 🦐 Cua 🦀 Cá 🐟    👈(ﾟヮﾟ)",
+			"embedDescrp": "**{{- author }}** react để chọn ô bạn muốn đặt trong vòng 25s",
+			"embedFooter": "Lưu ý: Mỗi react bằng **{{ bet }} {{- goldIcon }}** bạn đặt",
+			"win": "Kết quả: ║{{-icon1}}║{{-icon2}}║{{-icon3}}║\n**{{- author }}** đặt **{{ bet }} {{- goldIcon }}** và kiếm được **{{ win }} {{- goldIcon }}**",
+			"lose": "Kết quả: ║{{-icon1}}║{{-icon2}}║{{-icon3}}║\n**{{- author }}** đặt **{{ bet }} {{- goldIcon }}** và lỗ **{{ lose }} {{- goldIcon }}**"
     }
 	},
 	"social": {

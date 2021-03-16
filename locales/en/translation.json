@@ -56,6 +56,18 @@
 			"slot_process": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-spin}}║{{-spin}}║{{-spin}}║<\n══════════\n ║:::::::::::::::::::::║**",
       "slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and lost it all ಥ_ಥ",
       "slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and won **{{ win }} {{- goldIcon }}**"
+    },
+    "bj": {
+      "dealer": "Dealer",
+      "description": "Attempts to beat the dealer and win the game by getting a count as close to 21 as possible, without going over 21.",
+      "draw": "Tied",
+      "lose": "You lost it all!",
+      "on_hand": "{{-hand_cards}}\n**Value** `[{{-hand_value}}]`",
+      "title": "{{- author }} bet {{bet_amount}}",
+      "tutorial": "React with {{-success}} to hit, {{-danger}} to stand.",
+      "tutorial_double": "**React with {{-success}} to hit, {{-danger}} to stand and {{-tada}} to double your bet amount**",
+      "win": "You won!",
+      "you": "You"
     }
 	},
 	"social": {

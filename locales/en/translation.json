@@ -66,8 +66,18 @@
       "title": "{{- author }} bet {{bet_amount}}",
       "tutorial": "React with {{-success}} to hit, {{-danger}} to stand.",
       "tutorial_double": "**React with {{-success}} to hit, {{-danger}} to stand and {{-tada}} to double your bet amount**",
-      "win": "You won!",
-      "you": "You"
+			"tutorialSplit": "React with {{-success}} to hit, {{-danger}} to stand, 🔀 to split.",
+      "tutorialSplit_double": "React with {{-success}} to hit, {{-danger}} to stand, 🔀 to split and {{-tada}} to double your bet amount.",
+      "win": "You won {{-money}}",
+      "you": "You",
+			"s1": "S1",
+			"s2": "S2",
+			"winlose": "1P you lost and 2P you win",
+			"losewin": "1P you win and 2P you lost",
+			"windraw": "1P you lost and 2P you tie",
+			"drawwin": "1P you tie and 2P you lost",
+			"losedraw": "1P you win and 2P you tie",
+			"drawlose": "1P you tie and 2P you win"
     }
 	},
 	"social": {

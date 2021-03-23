@@ -53,6 +53,26 @@
 			"slot_process": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-spin}}║{{-spin}}║{{-spin}}║<\n══════════\n ║:::::::::::::::::::::║**",
       "slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và mất trắng ಥ_ಥ",
       "slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và thắng **{{ win }} {{- goldIcon }}**"
+    },
+    "bj": {
+      "dealer": "Nhà cái",
+      "description": "Xì dách: Đánh bại nhà cái bằng cách đạt số điểm thấp hơn gần nhất với 21",
+      "draw": "Hai bên bằng nhau. Chạy được lần này chắc gì lần tới chạy được",
+      "lose": "Bạn đã thua.Chỉ có làm thì mới có ăn",
+      "on_hand": "{{-hand_cards}}\n**Giá trị: **`[{{-hand_value}}]`",
+      "title": "{{- author }} đã đặt cược {{bet_amount}}",
+      "tutorial": "Ấn {{-success}} để rút thêm bài, {{-danger}} để dằn, 🔀 to tách cây.",
+      "tutorial_double": "**Ấn {{-success}} để rút thêm bài, {{-danger}} để dằn và {{-tada}} để cược gấp đôi**",
+      "win": "Chúc mừng bạn đã thắng {{-money}}",
+      "you": "Bạn",
+			"s1": "Tay 1",
+			"s2": "Tay 2",
+			"winlose": "Tay 1 bạn thua và Tay 2 bạn thắng",
+			"losewin": "Tay 1 bạn thắng và Tay 2 bạn thua",
+			"windraw": "Tay 1 bạn thua và Tay 2 bạn hòa",
+			"drawwin": "Tay 1 bạn hòa và Tay 2 bạn thua",
+			"losedraw": "Tay 1 bạn thắng và Tay 2 bạn hòa",
+			"drawlose": "Tay 1 bạn hòa và Tay 2 bạn thắng"
     }
 	},
 	"social": {

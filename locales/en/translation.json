@@ -51,12 +51,26 @@
 			"rps_win": "**{{- author }}|**You win!\nYou **won** {{ bet }} {{- gold }}\nYou chose: {{- winIcon }}\nBot chose: {{- loseIcon}}",
 			"tie": "Tied!\nYou chose: {{-icon}}\nBot chose: {{-icon}}"
 		},
-    "s": {
-      "description": "!!!Slot machine!!!",
+		"s": {
+			"description": "!!!Slot machine!!!",
 			"slot_process": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-spin}}║{{-spin}}║{{-spin}}║<\n══════════\n ║:::::::::::::::::::::║**",
-      "slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and lost it all ಥ_ಥ",
-      "slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and won **{{ win }} {{- goldIcon }}**"
-    }
+			"slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and lost it all ಥ_ಥ",
+			"slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and won **{{ win }} {{- goldIcon }}**"
+		},
+		"pick": {
+			"description": "Pick the money someone droped",
+			"err1": "**{{- author }} |** Invalid amount!",
+			"fail": "**{{- author }} |** You dropped {{ drop_amount }} {{- goldIcon }} whilst trying to pick the money.",
+			"minus": "**{{- author }} |** You can't join the picking contest, f.",
+			"success": "**{{- author }} |** Have picked up {{ pick_amount }} {{- goldIcon }}.",
+			"zero": "**🚫 | {{- author }},** your balance must be greater than 0 {{- goldIcon }}."
+		},
+		"drop": {
+			"description": "Drop your money",
+			"err1": "**{{- author }} |** Invalid amount!",
+			"err2": "**{{- author }} |** You don't have that much money, urg.",
+			"success": "**{{- author }} |** You've dropped {{ drop_amount }} {{- goldIcon }}"
+		}
 	},
 	"social": {
 		"balance": {

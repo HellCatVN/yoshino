@@ -59,7 +59,7 @@
 			"err1": "**{{- author }} |** Số tiền bạn nhặt không hợp lệ",
 			"success": "**{{- author }} |** Đã nhặt được {{ pick_amount }} {{- goldIcon }} rơi và bỏ túi",
 			"minus": "**{{- author }} |** Bạn không để tham gia trò chơi",
-			"fail": "**{{- author }} |** Nhặt tiền mà đen bị rơi  {{ drop_amount }} {{- goldIcon }}",
+			"fail": "**{{- author }} |** Nhặt tiền mà đen bị rơi {{ drop_amount }} {{- goldIcon }}",
 			"zero": "**🚫 | {{- author }},** phải có làm thì mới có ăn | số vàng trong tài khoản phải hơn 0 {{- goldIcon }}"
 		},
 		"drop": {

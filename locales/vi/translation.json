@@ -31,7 +31,8 @@
 	"gamble": {
 		"common": {
 			"err1": "**{{- author }} |** Vui lòng nhập số tiền muốn đặt lớn hơn **{{ min }}** {{- goldIcon }} và nhỏ hơn **{{ max }}** {{- goldIcon }}",
-			"err2": "**{{- author }} |** Dân chơi là không được thiếu tiền {{ dollar }}"
+			"err2": "**{{- author }} |** Dân chơi là không được thiếu tiền {{ dollar }}",
+			"err3": "**{{- author }} |** Số tiền không hợp lệ"
 		},
 		"cf": {
 			"description": "Tôi sẽ tung đồng xu và bạn hãy đoán nó là sấp hay ngửa",
@@ -48,12 +49,24 @@
 			"rps_lose": "**{{- author }} |** Chúc may mắn lần sau.\nBạn **thua** mất {{ bet }} {{- gold }}.\nBạn chọn: {{- loseIcon }}\nBot chọn: {{- winIcon }}",
 			"rps_win": "**{{- author }} |** Chúc mừng bạn đã chiến thắng.\n Bạn **thắng** được {{ bet }} {{- gold }}\nBạn chọn: {{- winIcon }}\nBot chọn: {{- loseIcon}}"
 		},
-    "s": {
-      "description": "Máy đánh bạc",
+		"s": {
+			"description": "Máy đánh bạc",
 			"slot_process": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-spin}}║{{-spin}}║{{-spin}}║<\n══════════\n ║:::::::::::::::::::::║**",
-      "slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và mất trắng ಥ_ಥ",
-      "slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và thắng **{{ win }} {{- goldIcon }}**"
-    }
+			"slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và mất trắng ಥ_ಥ",
+			"slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và thắng **{{ win }} {{- goldIcon }}**"
+		},
+		"pick": {
+			"description": "Tiền ai đánh rơi lụm lên dùm",
+			"success": "**{{- author }} |** Đã nhặt được {{ pick_amount }} {{- goldIcon }} rơi và bỏ túi",
+			"minus": "**{{- author }} |** Bạn không để tham gia trò chơi",
+			"fail": "**{{- author }} |** Nhặt tiền mà đen bị rơi {{ drop_amount }} {{- goldIcon }}",
+			"zero": "**🚫 | {{- author }},** phải có làm thì mới có ăn | số vàng trong tài khoản phải hơn 0 {{- goldIcon }}"
+		},
+		"drop": {
+			"description": "Đánh rơi ngừi iu nè",
+			"err2": "**{{- author }} |** Bạn không có đủ tiền để thực hiện",
+			"success": "**{{- author }} |** Đã làm rớt {{ drop_amount }} {{- goldIcon }}"
+		}
 	},
 	"social": {
 		"balance": {

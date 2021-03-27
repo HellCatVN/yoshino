@@ -56,6 +56,14 @@
 			"slot_process": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-spin}}║{{-spin}}║{{-spin}}║<\n══════════\n ║:::::::::::::::::::::║**",
       "slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and lost it all ಥ_ಥ",
       "slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and won **{{ win }} {{- goldIcon }}**"
+    },
+    "lottery": {
+      "description": "Daily lottery",
+      "announce": "{{- tada }} Today's winning number: **{{ lottery_win }}** {{- tada_2 }}",
+      "bought": "**{{- lottery_icon }}|{{- author }}**, You've bought a ticket: **{{ ticket_number }}**\n**{{-blankIcon}}|**G'luck!",
+      "err1": "**🚫|{{- author }}**, You have taken part in today's lottery.",
+      "err2": "**🚫|{{- author }}**, Invalid number, must be in the range of 1 and 99.",
+      "err3": "**🚫|{{- author }}**, Invalid number, must be in the range of 1 and 99."
     }
 	},
 	"social": {

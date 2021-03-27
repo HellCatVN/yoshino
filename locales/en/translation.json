@@ -34,7 +34,8 @@
 	"gamble": {
 		"common": {
 			"err1": "**{{- author }}|**Bets amount must be greater than **{{ min }}** {{- goldIcon }} and less than **{{ max }}** {{- goldIcon }}",
-			"err2": "**{{- author }}|**Big players don't have debts. {{ dollar }}"
+			"err2": "**{{- author }}|**Big players don't have debts. {{ dollar }}",
+			"err3": "**{{- author }} |** Invalid amount!"
 		},
 		"cf": {
 			"description": "Flip the coin, earn some gold!",
@@ -59,7 +60,6 @@
 		},
 		"pick": {
 			"description": "Pick the money someone droped",
-			"err1": "**{{- author }} |** Invalid amount!",
 			"fail": "**{{- author }} |** You dropped {{ drop_amount }} {{- goldIcon }} whilst trying to pick the money.",
 			"minus": "**{{- author }} |** You can't join the picking contest, f.",
 			"success": "**{{- author }} |** Have picked up {{ pick_amount }} {{- goldIcon }}.",
@@ -67,7 +67,6 @@
 		},
 		"drop": {
 			"description": "Drop your money",
-			"err1": "**{{- author }} |** Invalid amount!",
 			"err2": "**{{- author }} |** You don't have that much money, urg.",
 			"success": "**{{- author }} |** You've dropped {{ drop_amount }} {{- goldIcon }}"
 		}

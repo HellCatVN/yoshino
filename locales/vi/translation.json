@@ -32,7 +32,7 @@
 		"common": {
 			"err1": "**{{- author }} |** Vui lòng nhập số tiền muốn đặt lớn hơn **{{ min }}** {{- goldIcon }} và nhỏ hơn **{{ max }}** {{- goldIcon }}",
 			"err2": "**{{- author }} |** Dân chơi là không được thiếu tiền {{ dollar }}",
-			"err3": "**{{- author }} |** Số tiền bạn không hợp lệ"
+			"err3": "**{{- author }} |** Số tiền không hợp lệ"
 		},
 		"cf": {
 			"description": "Tôi sẽ tung đồng xu và bạn hãy đoán nó là sấp hay ngửa",

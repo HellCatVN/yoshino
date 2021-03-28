@@ -71,13 +71,13 @@
 			"success": "**{{- author }} |** You've dropped {{ drop_amount }} {{- goldIcon }}"
 		},
 		"bc": {
-      "description": "Hoo Hey How",
+			"description": "Hoo Hey How",
 			"title": "(ﾟヮﾟ)👉    Hoo 🐟 Hey 🦐 How 🦀    👈(ﾟヮﾟ)",
 			"embedDescrp": "**{{- author }}** react to select cell you want to bet",
 			"embedFooter": "Note: Each react is equal **{{ bet }} {{- goldIcon }}** you bet",
 			"win": "Result: ║{{-icon1}}║{{-icon2}}║{{-icon3}}║\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and earn **{{ win }} {{- goldIcon }}**",
 			"lose": "Result: ║{{-icon1}}║{{-icon2}}║{{-icon3}}║\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and loss **{{ lose }} {{- goldIcon }}**"
-    }
+		}
 	},
 	"social": {
 		"balance": {

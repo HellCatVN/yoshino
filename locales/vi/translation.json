@@ -68,13 +68,13 @@
 			"success": "**{{- author }} |** Đã làm rớt {{ drop_amount }} {{- goldIcon }}"
 		},
 		"bc": {
-      "description": "Tôm Cua Cá",
+			"description": "Tôm Cua Cá",
 			"title": "(ﾟヮﾟ)👉    Tôm 🦐 Cua 🦀 Cá 🐟    👈(ﾟヮﾟ)",
 			"embedDescrp": "**{{- author }}** react để chọn ô bạn muốn đặt",
 			"embedFooter": "Lưu ý: Mỗi react bằng **{{ bet }} {{- goldIcon }}** bạn đặt",
 			"win": "Kết quả: ║{{-icon1}}║{{-icon2}}║{{-icon3}}║\n**{{- author }}** đặt **{{ bet }} {{- goldIcon }}** và kiếm được **{{ win }} {{- goldIcon }}**",
 			"lose": "Kết quả: ║{{-icon1}}║{{-icon2}}║{{-icon3}}║\n**{{- author }}** đặt **{{ bet }} {{- goldIcon }}** và lỗ **{{ lose }} {{- goldIcon }}**"
-    }
+		}
 	},
 	"social": {
 		"balance": {

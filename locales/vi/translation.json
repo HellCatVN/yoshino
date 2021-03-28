@@ -31,7 +31,8 @@
 	"gamble": {
 		"common": {
 			"err1": "**{{- author }} |** Vui lòng nhập số tiền muốn đặt lớn hơn **{{ min }}** {{- goldIcon }} và nhỏ hơn **{{ max }}** {{- goldIcon }}",
-			"err2": "**{{- author }} |** Dân chơi là không được thiếu tiền {{ dollar }}"
+			"err2": "**{{- author }} |** Dân chơi là không được thiếu tiền {{ dollar }}",
+			"err3": "**{{- author }} |** Số tiền không hợp lệ"
 		},
 		"cf": {
 			"description": "Tôi sẽ tung đồng xu và bạn hãy đoán nó là sấp hay ngửa",
@@ -48,23 +49,35 @@
 			"rps_lose": "**{{- author }} |** Chúc may mắn lần sau.\nBạn **thua** mất {{ bet }} {{- gold }}.\nBạn chọn: {{- loseIcon }}\nBot chọn: {{- winIcon }}",
 			"rps_win": "**{{- author }} |** Chúc mừng bạn đã chiến thắng.\n Bạn **thắng** được {{ bet }} {{- gold }}\nBạn chọn: {{- winIcon }}\nBot chọn: {{- loseIcon}}"
 		},
-    "s": {
-      "description": "Máy đánh bạc",
+		"s": {
+			"description": "Máy đánh bạc",
 			"slot_process": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-spin}}║{{-spin}}║{{-spin}}║<\n══════════\n ║:::::::::::::::::::::║**",
-      "slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và mất trắng ಥ_ಥ",
-      "slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và thắng **{{ win }} {{- goldIcon }}**"
-    },
-    "bj": {
-      "dealer": "Nhà cái",
-      "description": "Xì dách: Đánh bại nhà cái bằng cách đạt số điểm thấp hơn gần nhất với 21",
-      "draw": "Hai bên bằng nhau. Chạy được lần này chắc gì lần tới chạy được",
-      "lose": "Bạn đã thua.Chỉ có làm thì mới có ăn",
-      "on_hand": "{{-hand_cards}}\n**Giá trị: **`[{{-hand_value}}]`",
-      "title": "{{- author }} đã đặt cược {{bet_amount}}",
-      "tutorial": "Ấn {{-success}} để rút thêm bài, {{-danger}} để dằn, 🔀 to tách cây.",
-      "tutorial_double": "**Ấn {{-success}} để rút thêm bài, {{-danger}} để dằn và {{-tada}} để cược gấp đôi**",
-      "win": "Chúc mừng bạn đã thắng {{-money}}",
-      "you": "Bạn",
+			"slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và mất trắng ಥ_ಥ",
+			"slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** đã đặt **{{ bet }} {{- goldIcon }}** và thắng **{{ win }} {{- goldIcon }}**"
+		},
+		"pick": {
+			"description": "Tiền ai đánh rơi lụm lên dùm",
+			"success": "**{{- author }} |** Đã nhặt được {{ pick_amount }} {{- goldIcon }} rơi và bỏ túi",
+			"minus": "**{{- author }} |** Bạn không để tham gia trò chơi",
+			"fail": "**{{- author }} |** Nhặt tiền mà đen bị rơi {{ drop_amount }} {{- goldIcon }}",
+			"zero": "**🚫 | {{- author }},** phải có làm thì mới có ăn | số vàng trong tài khoản phải hơn 0 {{- goldIcon }}"
+		},
+		"drop": {
+			"description": "Đánh rơi ngừi iu nè",
+			"err2": "**{{- author }} |** Bạn không có đủ tiền để thực hiện",
+			"success": "**{{- author }} |** Đã làm rớt {{ drop_amount }} {{- goldIcon }}"
+		},
+		"bj": {
+			"dealer": "Nhà cái",
+			"description": "Xì dách: Đánh bại nhà cái bằng cách đạt số điểm thấp hơn gần nhất với 21",
+			"draw": "Hai bên bằng nhau. Chạy được lần này chắc gì lần tới chạy được",
+			"lose": "Bạn đã thua.Chỉ có làm thì mới có ăn",
+			"on_hand": "{{-hand_cards}}\n**Giá trị: **`[{{-hand_value}}]`",
+			"title": "{{- author }} đã đặt cược {{bet_amount}}",
+			"tutorial": "Ấn {{-success}} để rút thêm bài, {{-danger}} để dằn, 🔀 to tách cây.",
+			"tutorial_double": "**Ấn {{-success}} để rút thêm bài, {{-danger}} để dằn và {{-tada}} để cược gấp đôi**",
+			"win": "Chúc mừng bạn đã thắng {{-money}}",
+			"you": "Bạn",
 			"s1": "Tay 1",
 			"s2": "Tay 2",
 			"winlose": "Tay 1 bạn thua và Tay 2 bạn thắng",
@@ -73,7 +86,7 @@
 			"drawwin": "Tay 1 bạn hòa và Tay 2 bạn thua",
 			"losedraw": "Tay 1 bạn thắng và Tay 2 bạn hòa",
 			"drawlose": "Tay 1 bạn hòa và Tay 2 bạn thắng"
-    }
+		}
 	},
 	"social": {
 		"balance": {

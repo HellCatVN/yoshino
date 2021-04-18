@@ -34,7 +34,8 @@
 	"gamble": {
 		"common": {
 			"err1": "**{{- author }}|**Bets amount must be greater than **{{ min }}** {{- goldIcon }} and less than **{{ max }}** {{- goldIcon }}",
-			"err2": "**{{- author }}|**Big players don't have debts. {{ dollar }}"
+			"err2": "**{{- author }}|**Big players don't have debts. {{ dollar }}",
+			"err3": "**{{- author }} |** Invalid amount!"
 		},
 		"cf": {
 			"description": "Flip the coin, earn some gold!",
@@ -51,19 +52,30 @@
 			"rps_win": "**{{- author }}|**You win!\nYou **won** {{ bet }} {{- gold }}\nYou chose: {{- winIcon }}\nBot chose: {{- loseIcon}}",
 			"tie": "Tied!\nYou chose: {{-icon}}\nBot chose: {{-icon}}"
 		},
-    "s": {
-      "description": "!!!Slot machine!!!",
+		"s": {
+			"description": "!!!Slot machine!!!",
 			"slot_process": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-spin}}║{{-spin}}║{{-spin}}║<\n══════════\n ║:::::::::::::::::::::║**",
-      "slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and lost it all ಥ_ಥ",
-      "slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and won **{{ win }} {{- goldIcon }}**"
-    },
+			"slot_lost": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::LOST::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and lost it all ಥ_ಥ",
+			"slot_win": "** ║ 🎰  SLOTS  ║\n══════════\n ║{{-icon1}}║{{-icon2}}║{{-icon3}}║<\n══════════\n ║::::::WON::::::║**\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and won **{{ win }} {{- goldIcon }}**"
+		},
+		"pick": {
+			"description": "Pick the money someone droped",
+			"fail": "**{{- author }} |** You dropped {{ drop_amount }} {{- goldIcon }} whilst trying to pick the money.",
+			"minus": "**{{- author }} |** You can't join the picking contest, f.",
+			"success": "**{{- author }} |** Have picked up {{ pick_amount }} {{- goldIcon }}.",
+			"zero": "**🚫 | {{- author }},** your balance must be greater than 0 {{- goldIcon }}."
+		},
+		"drop": {
+			"description": "Drop your money",
+			"err2": "**{{- author }} |** You don't have that much money, urg.",
+			"success": "**{{- author }} |** You've dropped {{ drop_amount }} {{- goldIcon }}"
+		},
     "lottery": {
       "description": "Daily lottery",
       "announce": "{{- tada }} Today's winning number: **{{ lottery_win }}** {{- tada_2 }}",
       "bought": "**{{- lottery_icon }}|{{- author }}**, You've bought a ticket: **{{ ticket_number }}**\n**{{-blankIcon}}|**G'luck!",
       "err1": "**🚫|{{- author }}**, You have taken part in today's lottery.",
-      "err2": "**🚫|{{- author }}**, Invalid number, must be in the range of 1 and 99.",
-      "err3": "**🚫|{{- author }}**, Invalid number, must be in the range of 1 and 99."
+      "err2": "**🚫|{{- author }}**, Invalid number, must be in the range of 1 and 99."
     }
 	},
 	"social": {

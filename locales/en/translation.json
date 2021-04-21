@@ -29,6 +29,10 @@
 		"enable": {
 			"description": "",
 			"content": "**✅ Usable commands in channel **\n{{ listCommands }}"
+		},
+		"announceChannel": {
+			"description": "Create weather notification channels, announce lottery tickets ... etc ...",
+			"content": "**✅ Successfully created an announcement channel."
 		}
 	},
 	"gamble": {

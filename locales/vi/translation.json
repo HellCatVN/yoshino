@@ -26,6 +26,10 @@
 		"enable": {
 			"description": "",
 			"content": "**✅ Lệnh được sử dụng tại kênh này**\n{{ listCommands }}"
+		},
+		"announceChannel": {
+			"description": "Tạo kênh thông báo thời tiết, thông báo vé số ...vân vân ...",
+			"content": "**✅ Tạo kênh thông báo thành công."
 		}
 	},
 	"gamble": {

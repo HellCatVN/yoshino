@@ -29,6 +29,10 @@
 		"enable": {
 			"description": "",
 			"content": "**✅ Usable commands in channel **\n{{ listCommands }}"
+		},
+		"announceChannel": {
+			"description": "Create weather notification channels, announce lottery tickets ... etc ...",
+			"content": "**✅ | Successfully created an announcement channel.**"
 		}
 	},
 	"gamble": {
@@ -69,7 +73,14 @@
 			"description": "Drop your money",
 			"err2": "**{{- author }} |** You don't have that much money, urg.",
 			"success": "**{{- author }} |** You've dropped {{ drop_amount }} {{- goldIcon }}"
-		}
+		},
+    "lottery": {
+      "description": "Daily lottery",
+      "announce": "{{- tada }} Today's winning number: **{{ lottery_win }}** {{- tada_2 }}",
+      "bought": "**{{- lottery_icon }}|{{- author }}**, You've bought a ticket: **{{ ticket_number }}**\n**{{-blankIcon}}|**G'luck!",
+      "err1": "**🚫|{{- author }}**, You have taken part in today's lottery.",
+      "err2": "**🚫|{{- author }}**, Invalid number, must be in the range of 1 and 99."
+    }
 	},
 	"social": {
 		"balance": {

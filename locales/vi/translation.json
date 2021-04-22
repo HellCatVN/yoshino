@@ -26,6 +26,10 @@
 		"enable": {
 			"description": "",
 			"content": "**✅ Lệnh được sử dụng tại kênh này**\n{{ listCommands }}"
+		},
+		"announceChannel": {
+			"description": "Tạo kênh thông báo thời tiết, thông báo vé số ...vân vân ...",
+			"content": "**✅ | Tạo kênh thông báo thành công.**"
 		}
 	},
 	"gamble": {
@@ -66,7 +70,14 @@
 			"description": "Đánh rơi ngừi iu nè",
 			"err2": "**{{- author }} |** Bạn không có đủ tiền để thực hiện",
 			"success": "**{{- author }} |** Đã làm rớt {{ drop_amount }} {{- goldIcon }}"
-		}
+		},
+    "lottery": {
+      "description": "Xổ số kiến thiết, ích nước lợi nhà (*￣3￣)╭",
+      "announce": "{{- tada }} Con số trúng thưởng hôm này là **{{ lottery_win }}** {{- tada_2 }}",
+      "bought": "**{{- lottery_icon }} | {{- author }}**, Bạn đã mua thành công vé số **{{ ticket_number }}**\n**{{-blankIcon}} |** Chưa tới giờ xổ không biết ai giàu hơn ai.",
+      "err1": "**🚫|{{- author }}**, Bạn đã tham gia xổ số của ngày hôm nay",
+      "err2": "**🚫|{{- author }}**, Số vé phải nằm từ `1` đến `99`."
+    }
 	},
 	"social": {
 		"balance": {

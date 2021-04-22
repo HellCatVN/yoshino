@@ -29,8 +29,7 @@
 		},
 		"announceChannel": {
 			"description": "Tạo kênh thông báo thời tiết, thông báo vé số ...vân vân ...",
-			"content": "**✅ | Tạo kênh thông báo thành công.**",
-			"content2": "**✅ | Đổi kênh thông báo thành công.**"
+			"content": "**✅ | Tạo kênh thông báo thành công.**"
 		}
 	},
 	"gamble": {

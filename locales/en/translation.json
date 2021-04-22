@@ -32,8 +32,7 @@
 		},
 		"announceChannel": {
 			"description": "Create weather notification channels, announce lottery tickets ... etc ...",
-			"content": "**✅ | Successfully created an announcement channel.**",
-			"content2": "**✅ | Successfully changed an announcement channel.**"
+			"content": "**✅ | Successfully created an announcement channel.**"
 		}
 	},
 	"gamble": {

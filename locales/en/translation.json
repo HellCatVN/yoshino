@@ -1,8 +1,25 @@
 {
 	"common": {
 		"permission": {
-			"channel_block": "**🚫 | {{- author }},** This command is not allowed in the channel"
-		}
+			"channel_block": "**🚫 | {{- author }},** This command is not allowed in the channel",
+			"ownerBot_only": "**🚫|{{- author }},** This command can only be used by Owner of Bot."
+		},
+		"error": {
+      "input_channel": "**⚠️|{{- author }},** Please input your channel's **ID** or **mention**.",
+      "input_money": "**⚠️|{{- author }},** Please enter the amount to be transferred.",
+      "mention_user": "**⚠️|{{- author }},** Please include @**target** to use the command.",
+      "money_format": "**⚠️|{{- author }},** Invalid amount entered.",
+      "no_channel": "**⚠️|{{- author }},** Can't find such channel.",
+      "server001": "**⚠️|{{- author }},** Your Server hasn't been activated.",
+      "server002": "**⚠️|{{- author }},** Can't find your Server.",
+      "server003": "**⚠️|{{- author }},** Your Server hasn't setup roles.",
+      "server004": "**⚠️|{{- author }},** AutoRole hasn't been set.",
+      "unknown": "**⚠️An error has occurred:|** `{{- error }}` \nContact: {{- owner_list}} \nat: {{-invite}}",
+      "user001": "**⚠️|{{- member }}**, You haven't initialised your profile. Use `{{- prefix}}letsplay` so get started!",
+      "user002": "**⚠️|{{- author }},** You haven't got any profile created|Contact the admin if you believe this is an error.",
+      "user003": "**⚠️|{{- author }},** Insufficient funds.",
+      "user_notfound": "**⚠️|{{- author }},** Invalid syntax! Either include **@user** to return from the specified user or leave it blank to return from yours."
+    }
 	},
 	"framework": {
 		"cooldown": "**⏰ | {{-author}}, **Please wait `{{remaining}}` s before you can use `{{commandName}}`"
@@ -82,6 +99,11 @@
       "err2": "**🚫|{{- author }}**, Invalid number, must be in the range of 1 and 99."
     }
 	},
+	"game_master": {
+    "add_money": {
+      "success": "**✅|{{- author }},** Success!"
+    }
+  },
 	"social": {
 		"balance": {
 			"description": "Check your gold",

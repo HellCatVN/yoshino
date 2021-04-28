@@ -1,8 +1,25 @@
 {
 	"common": {
 		"permission": {
-			"channel_block": "**🚫 | {{- author }},** câu lệnh đã bị vô hiệu hóa tại kênh này"
-		}
+			"channel_block": "**🚫 | {{- author }},** câu lệnh đã bị vô hiệu hóa tại kênh này",
+			"ownerBot_only": "**🚫 | {{- author }},** câu lệnh này chỉ có thể được sử dụng bởi Owner của bot."
+		},
+		"error": {
+      "unknown": "**⚠️Đã xảy ra lỗi: | ** `{{- error }}` \nHãy liện hệ Admin : {{- owner_list}}\nTại server: {{-invite}}",
+      "user001": "**⚠️ | {{- member }}**, Bạn chưa tạo nhân vật. Hãy dùng lệnh `{{- prefix}}letsplay` để tham gia",
+      "user002": "**⚠️ | {{- author }},** Người được nhắc đến chưa có tài khoản | Nếu bạn cho rằng đây là lỗi hãy liên hệ admin",
+      "user003": "**⚠️ | {{- author }},** Tài khoản của bạn không đủ để thanh toán",
+      "server001": "**⚠️ | {{- author }},** Server của bạn hiện chưa được kích hoạt",
+      "server002": "**⚠️ | {{- author }},** Không tìm thấy server của bạn",
+      "server003": "**⚠️ | {{- author }},** Server chưa thiết lập tùy chỉnh role",
+      "server004": "**⚠️ | {{- author }},** Chưa có tự nhận role được thiết lập",
+      "input_channel": "**⚠️ | {{- author }},** Vui lòng **nhập id kênh** hoặc **nhắc đến kênh**",
+      "no_channel": "**⚠️ | {{- author }},** không tìm thấy kênh được nhắc đến",
+      "mention_user": "**⚠️ | {{- author }},** Vui lòng **nhắc đến người dùng** để sử dụng câu lệnh",
+      "user_notfound": "**⚠️ | {{- author }},** Vui lòng **không thêm nội dung** hoặc **nhắc đến người dùng** để sử dụng câu lệnh",
+      "input_money": "**⚠️ | {{- author }},** Vui lòng nhập số tiền cần chuyển",
+      "money_format": "**⚠️ | {{- author }},** Số tiền cần chuyển không hợp lệ"
+    }
 	},
 	"framework": {
 		"cooldown": "**⏰ | {{-author}}, **Vui lòng chờ thêm `{{remaining}}` giây trước khi có thể sử dụng `{{commandName}}`"
@@ -79,6 +96,11 @@
       "err2": "**🚫|{{- author }}**, Số vé phải nằm từ `1` đến `99`."
     }
 	},
+	"game_master": {
+    "add_money": {
+      "success": "**✅|{{- author }},** Thao tác thành công!"
+    }
+  },
 	"social": {
 		"balance": {
 			"description": "Kiểm tra số vàng của bạn",

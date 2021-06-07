@@ -102,6 +102,9 @@
 	"game_master": {
     "add_money": {
       "success": "**✅|{{- author }},** Success!"
+    },
+		"add_item": {
+      "success": "**✅|{{- author }},** Successfully updated {{- num_items}} items!"
     }
   },
 	"social": {

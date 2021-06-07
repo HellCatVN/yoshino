@@ -99,6 +99,9 @@
 	"game_master": {
     "add_money": {
       "success": "**✅|{{- author }},** Thao tác thành công!"
+    },
+		"add_item": {
+      "success": "**✅ | {{- author }},** cập nhật thành công {{- num_items}} items"
     }
   },
 	"social": {

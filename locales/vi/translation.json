@@ -71,13 +71,21 @@
 			"err2": "**{{- author }} |** Bạn không có đủ tiền để thực hiện",
 			"success": "**{{- author }} |** Đã làm rớt {{ drop_amount }} {{- goldIcon }}"
 		},
-    "lottery": {
-      "description": "Xổ số kiến thiết, ích nước lợi nhà (*￣3￣)╭",
-      "announce": "{{- tada }} Con số trúng thưởng hôm này là **{{ lottery_win }}** {{- tada_2 }}",
-      "bought": "**{{- lottery_icon }} | {{- author }}**, Bạn đã mua thành công vé số **{{ ticket_number }}**\n**{{-blankIcon}} |** Chưa tới giờ xổ không biết ai giàu hơn ai.",
-      "err1": "**🚫|{{- author }}**, Bạn đã tham gia xổ số của ngày hôm nay",
-      "err2": "**🚫|{{- author }}**, Số vé phải nằm từ `1` đến `99`."
-    }
+		"lottery": {
+			"description": "Xổ số kiến thiết, ích nước lợi nhà (*￣3￣)╭",
+			"announce": "{{- tada }} Con số trúng thưởng hôm này là **{{ lottery_win }}** {{- tada_2 }}",
+			"bought": "**{{- lottery_icon }} | {{- author }}**, Bạn đã mua thành công vé số **{{ ticket_number }}**\n**{{-blankIcon}} |** Chưa tới giờ xổ không biết ai giàu hơn ai.",
+			"err1": "**🚫|{{- author }}**, Bạn đã tham gia xổ số của ngày hôm nay",
+			"err2": "**🚫|{{- author }}**, Số vé phải nằm từ `1` đến `99`."
+		},
+		"bc": {
+			"description": "Tôm Cua Cá",
+			"title": "(ﾟヮﾟ)👉    Tôm 🦐 Cua 🦀 Cá 🐟    👈(ﾟヮﾟ)",
+			"embedDescrp": "**{{- author }}** react để chọn ô bạn muốn đặt",
+			"embedFooter": "Lưu ý: Mỗi react bằng **{{ bet }} {{- goldIcon }}** bạn đặt",
+			"win": "Kết quả: ║{{-icon1}}║{{-icon2}}║{{-icon3}}║\n**{{- author }}** đặt **{{ bet }} {{- goldIcon }}** và kiếm được **{{ win }} {{- goldIcon }}**",
+			"lose": "Kết quả: ║{{-icon1}}║{{-icon2}}║{{-icon3}}║\n**{{- author }}** đặt **{{ bet }} {{- goldIcon }}** và lỗ **{{ lose }} {{- goldIcon }}**"
+		}
 	},
 	"social": {
 		"balance": {

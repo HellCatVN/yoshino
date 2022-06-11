@@ -74,13 +74,21 @@
 			"err2": "**{{- author }} |** You don't have that much money, urg.",
 			"success": "**{{- author }} |** You've dropped {{ drop_amount }} {{- goldIcon }}"
 		},
-    "lottery": {
-      "description": "Daily lottery",
-      "announce": "{{- tada }} Today's winning number: **{{ lottery_win }}** {{- tada_2 }}",
-      "bought": "**{{- lottery_icon }}|{{- author }}**, You've bought a ticket: **{{ ticket_number }}**\n**{{-blankIcon}}|**G'luck!",
-      "err1": "**🚫|{{- author }}**, You have taken part in today's lottery.",
-      "err2": "**🚫|{{- author }}**, Invalid number, must be in the range of 1 and 99."
-    }
+		"lottery": {
+			"description": "Daily lottery",
+			"announce": "{{- tada }} Today's winning number: **{{ lottery_win }}** {{- tada_2 }}",
+			"bought": "**{{- lottery_icon }}|{{- author }}**, You've bought a ticket: **{{ ticket_number }}**\n**{{-blankIcon}}|**G'luck!",
+			"err1": "**🚫|{{- author }}**, You have taken part in today's lottery.",
+			"err2": "**🚫|{{- author }}**, Invalid number, must be in the range of 1 and 99."
+		},
+		"bc": {
+			"description": "Hoo Hey How",
+			"title": "(ﾟヮﾟ)👉    Hoo 🐟 Hey 🦐 How 🦀    👈(ﾟヮﾟ)",
+			"embedDescrp": "**{{- author }}** react to select cell you want to bet",
+			"embedFooter": "Note: Each react is equal **{{ bet }} {{- goldIcon }}** you bet",
+			"win": "Result: ║{{-icon1}}║{{-icon2}}║{{-icon3}}║\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and earn **{{ win }} {{- goldIcon }}**",
+			"lose": "Result: ║{{-icon1}}║{{-icon2}}║{{-icon3}}║\n**{{- author }}** bet **{{ bet }} {{- goldIcon }}** and loss **{{ lose }} {{- goldIcon }}**"
+		}
 	},
 	"social": {
 		"balance": {
